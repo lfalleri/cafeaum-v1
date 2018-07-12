@@ -1,0 +1,17 @@
+# Python compiled byte code
+*.pyc
+
+staticfiles/
+
+# Node modules
+#node_modules/
+
+# Bower components
+#static/bower_components/
+
+# Uglified JavaScript
+#dist/
+
+# Staticfiles
+#staticfiles/
+sendgrid.env
