@@ -23,11 +23,6 @@
             Authentication.fullAccount = value;
             $scope.account = value;
             $scope.animators = YogaService.getAllAnimators(function(success, animators){
-               if(!success){
-                  YogaService.gotoCalendar();
-                  return;
-               }
-               $scope.animators = animators;
             });
          });
      }
