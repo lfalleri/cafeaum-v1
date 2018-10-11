@@ -64,7 +64,7 @@
 }
 
 .restaurant-plat-ingredients{
-  /*background-color: #f2f2f2;*/
+  background-color: #fffdfa;
   padding-right: 15px;
   font-size: 90%;
   font-style: italic;
@@ -73,7 +73,7 @@
 }
 
 .restaurant-plat-prix{
- /* background-color: #f2f2f2;*/
+  background-color: #fffdfa;
   padding-left: 15px;
   float: right;
   font-size: 90%;
@@ -108,7 +108,7 @@
   font-size: 100%;
   font-weight: 100;
   z-index:2;
-  /*background-color: #f2f2f2;*/
+  background-color: #fffdfa;
   padding-right : 3%;
 }
 

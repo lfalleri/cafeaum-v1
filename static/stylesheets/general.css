@@ -84,13 +84,17 @@ p{
 }
 
 .menu-burger-border{
-     height:40px;
-     width:40px;
-  }
+    border:1px solid #3f3f3f;
+    border-radius:4px;
+    cursor: pointer;
+    height: 64px;
+    width: 64px;
+
+}
 
 .menu-burger{
-     font-size: 40px;
-     margin:20% auto;
+    font-size: 64px;
+    margin: 30% auto;
 }
 
 .select-button{
@@ -133,19 +137,21 @@ p{
 
 .logo-div{
   position:absolute;
-  top: 15px;
-  left:40px;
 }
-
 
 .page-title-sm{
    font-family:'Montserrat';
    text-transform:uppercase;
+   font-size: 48px;
+}
+
+.page-subtitle-sm{
+   font-family:'Montserrat';
+   font-size: 30px;
 }
 
 .cy-footer-links{
     font-family:'Montserrat';
-    /*margin:auto;*/
 }
 
 .cy-footer-link,
@@ -190,16 +196,9 @@ p{
    margin: 0 auto;
 }
 
-
-/*
-.navbar-light{
-   background-color: #f2f2f2;}
-*/
-
 .main-container{
    margin-top: 70px;
-   margin-bottom: 150px;
-   /*min-height: 1000px;*/
+   margin-bottom: 170px;
 }
 
 .content-container{
@@ -239,9 +238,9 @@ section {
    font-family:Montserrat;}
 
 
-
+/*
 header.masthead {
-  /*background-color: #f2f2f2;*/
+  background-color: #f2f2f2;
   margin-right : 15%;
   margin-left : 15%;
   margin-top : 8%;
@@ -296,7 +295,7 @@ header.masthead {
       font-family: 'Poiret One';
       color: #595959;
       padding-top: 35px;}}
-
+*/
 
 .text-logo{
     font-size:60px;
@@ -342,7 +341,10 @@ footer {
    min-width:95%;
 }
 
-
+.invalid-input{
+   color: red;
+   border-color: red;
+}
 
 .text-centered{
    text-align : center;
@@ -454,10 +456,10 @@ text-up{
   border-right : 2px solid #A87E43;
   position: relative;
   z-index:0;
-  margin-left: 30px;
-  padding-right: 50px;
-  min-height: 500px;
-  min-width: 220px;
+  margin-left: 0px;
+  padding-right: 30px;
+  min-height: 400px;
+  min-width: 200px;
 }
 
 .cy-sidenav-title{
@@ -470,7 +472,7 @@ text-up{
   color : #A87E43;
   font-family:'Montserrat';
   font-weight: 700;
-  font-size: 24px;
+  font-size: 22px;
   text-transform:uppercase;
 }
 
@@ -484,7 +486,7 @@ text-up{
   margin-bottom: 30px;
   font-family:'Montserrat';
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
   color : #A87E43;
 }
 
@@ -507,6 +509,17 @@ text-up{
   margin:0;
 }
 
+.md-radio-button:focus
+{
+    outline: none;
+    border: 0;
+}
+
+.md-icon:focus {
+   outline: none;
+   border: 0;
+}
+
 .cy-sidenav-icon:hover{
   cursor: pointer;
 }
@@ -515,7 +528,7 @@ text-up{
   margin: 5px 0 5px 20px;
   font-family:'Montserrat';
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   color : #A87E43;
 }
 .cy-sidenav-last-subitem{

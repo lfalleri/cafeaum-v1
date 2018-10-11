@@ -62,6 +62,13 @@
    height:60%;
    width:60%;
 }
+
+.line-with-icon{
+    font-size: 1rem;
+    width: inherit;
+    height: 1.2rem;
+    vertical-align: middle;
+}
 /*
 @media only screen
 and (max-width : 320px)
@@ -105,6 +112,62 @@ and (min-width  : 768px)
   }
 }
 */
+.restaurant-img{
+    content : url('/static/img/landingpage/RESTAURANT.png');
+}
+.boutique-img{
+    content : url('/static/img/landingpage/BOUTIQUE.png');
+}
+
+
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px)
+{
+.landingpage-link-text{
+    font-size:85%;
+}
+}
+
+@media only screen
+and (min-width  : 480px)
+and (max-width : 768px)
+{
+.landingpage-link-text{
+    font-size:90%;
+}
+}
+
+@media only screen
+and (min-width  : 768px)
+and (max-width : 1200px)
+{
+.landingpage-link-text{
+    font-size:95%;
+}
+}
+
+@media only screen
+and (min-width  : 1200px)
+and (max-width : 1500px)
+{
+.landingpage-link-text{
+    font-size:110%;
+}
+}
+
+@media only screen
+and (min-width  : 1500px)
+{
+.landingpage-link-text{
+    font-size:120%;
+}
+}
+
+
+
+
 .landingpage-container-square:after {
   content: "";
   display: block;
@@ -255,10 +318,10 @@ and (min-width  : 768px)
 
     .landingpage-item .portfolio-link .portfolio-hover {
       position: absolute;
-      width: 90%;
-      height: 94%;
-      top:3%;
-      left:5%;
+      width: 86%;
+      height: 86%;
+      top:7%;
+      left:7%;
       -webkit-transition: all ease 0.5s;
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
@@ -366,7 +429,7 @@ and (min-width  : 768px)
 .cy-container{
    background-color: #fffdfa;
    width:100%;
-   position:relative;
+   /*position:relative;*/
 }
 
 .landinpage-container-white{
