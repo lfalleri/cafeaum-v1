@@ -56,6 +56,10 @@
       controller: 'LandingPageController',
       controllerAs: 'vm',
       templateUrl: '/static/templates/general/presentation.html'
+    }).when('/mentions',{
+      controller: 'LandingPageController',
+      controllerAs: 'vm',
+      templateUrl: '/static/templates/general/mentions_legales.html'
     }).otherwise({
        redirectTo:"/"
     });
