@@ -5,6 +5,8 @@ from rest_framework.response import Response
 from rest_framework import  status
 from django.core.mail import send_mail
 from django.core.mail import EmailMultiAlternatives
+import sendgrid
+from sendgrid.helpers.mail import Email, Content, Mail, Attachment
 
 
 
@@ -54,7 +56,6 @@ class ContactEmailView(views.APIView):
         tel = data['tel']
         message = data['message']
 
-        staff_email = getEmails()
         subject = "Demande de contact"
         message_content = """
             <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
