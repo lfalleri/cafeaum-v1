@@ -80,7 +80,7 @@ class ContactEmailView(views.APIView):
 
         from_email = Email("contact@cafe-aum.fr")
         to_email = Email("contact@cafe-aum.fr")
-        content = Content("text/html", content)
+        content = Content("text/html", message_content)
         mail = Mail(from_email, subject, to_email, content)
 
         response = sg.client.mail.send.post(request_body=mail.get())
