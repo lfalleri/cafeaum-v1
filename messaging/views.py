@@ -78,7 +78,7 @@ class ContactEmailView(views.APIView):
         
         sg = sendgrid.SendGridAPIClient(apikey="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")
 
-        from_email = Email("contact@cafe-aum.fr")
+        from_email = Email("noreply@cafe-aum.fr")
         to_email = Email("contact@cafe-aum.fr")
         content = Content("text/html", message_content)
         mail = Mail(from_email, subject, to_email, content)
